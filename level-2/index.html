@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-2</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container head-pad">
+            <nav class="navbar flex">
+                <a class="flex" href="#">
+                    <img src="assets/images/logo.png" alt="logo"> <h2 class="logo">Journey</h2>
+                </a>
+                <ul class="flex">
+                    <li class="list-item active"><a href="#">Home</a></li>
+                    <li class="list-item"><a href="#">Top Destinations</a></li>
+                    <li class="list-item"><a href="#">Recommended Places</a></li>
+                    <li class="list-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container banner">
+                <div class="top-hero">
+                    <h1>Lets's Begin</h1>
+                    <img src="assets/images/dots-3.png" alt="3-dots">
+                    <p>We assits you to choose the best</p>
+                    <div class="icon-hero">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <div class="bottom-hero">
+                    <form class="form" action="index.html" method="post">
+                      <div class="row flex">
+                        <div class="col-1-2">
+                            <div class="div">
+                                <label class="destination" for="destination">Choose Your Destination</label>
+                                 <input type="text" id="destination" name="destination" placeholder="Type your destination...">
+                            </div>
+                            
+                            <div class="div2">
+                                <label for="checkin">Check In Date</label>
+                                <input type="text" id="checkin" name="checkin" placeholder="Check In">
+                            </div>
+
+                            <div class="div3">
+                                <label class="checkout" for="checkout">Check Out Date</label>
+                                <input type="text" id="checkout" name="checkout" placeholder="Check Out">
+                            </div>
+
+                        </div>
+                        <div class="col-1-2">
+                            <label class="room" for="room">How many rooms?</label>
+                              <select id="room" name="room">
+                                <option value="1">Room1</option>
+                                <option value="1">Room2</option>
+                                <option value="1">Room3</option>
+                                <option value="1">Room4</option>
+                              </select>
+                            
+                            <label class="adult" for="adult">Adult</label>
+                              <select id="adult" name="adult">
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                              </select>
+                            
+                            <label class="children" for="children">Children</label>
+                              <select id="children" name="children">
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                                  <option value="1">1</option>
+                              </select>
+
+                              <button class="button button-1" href="#">check availability</button>
+                        </div>
+                      </div> 
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="first-sec">
+            <div class="container text-centre second-sub">
+                <h2>YOUR <strong>JOURNEY</strong> IS OUR PRIORITY</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed totam dignissimos, voluptatem aspernatur consectetur animi! Quibusdam animi saepe, eum maxime,</P>
+                <a class="btn btn-primary" href="#">CONTINUE EXPLORE</a>
+            </div>
+        </section>
+
+        <section class="second-sec">
+            <article class="container">
+                <div class="flex parent-cont">
+                    <div class="col-1-2 img-col">
+                        <img src="assets/images/tm-img-01.jpg" alt="01">
+                    </div>
+                    <div class="icon flex">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                    <div class="col-1-2 color1">
+                            <h3>Europe's most visited places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ex quia exercitationem unde nobis repudiandae voluptatem eius corporis vel dolore?</p>
+                            <a class="btn btn-secondary" href="#">continue reading</a>
+                    </div>
+                </div>
+
+                <div class="flex parent-cont">
+                    <div class="col-1-2 color2">
+                        <h3>Asia's most popular places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ex quia exercitationem unde nobis repudiandae voluptatem eius corporis vel dolore?</p>
+                        <a class="btn btn-tertiary" href="#">continue reading</a>
+                    </div>
+                    <div class="icon2 flex">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                    <div class="col-1-2 img-col">
+                        <img src="assets/images/tm-img-02.jpg" alt="02">
+                    </div>
+                </div>
+
+                <div class="flex parent-cont">
+                    <div class="col-1-2 img-col">
+                        <img src="assets/images/tm-img-03.jpg" alt="03">
+                    </div>
+                    <div class="icon flex">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                    <div class="col-1-2 color1">
+                            <h3>America's most famous places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ex quia exercitationem unde nobis repudiandae voluptatem eius corporis vel dolore?</p>
+                            <a class="btn btn-secondary" href="#">continue reading</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/bd07b7eea7.js" crossorigin="anonymous"></script>
+</body>
+</html>
