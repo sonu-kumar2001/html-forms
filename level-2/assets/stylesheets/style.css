@@ -333,7 +333,7 @@ h5 {
    padding: 60px 0;
 }
 .row {
-    border: 1.1px solid #a5a5a5;
+    box-shadow: 3px 3px 6px 2px #a5a5a5;
     margin-bottom: 30px;
     height: 185px;
 }
